@@ -171,7 +171,7 @@ function App() {
                 <figure className="slide__img-cont">
                   <img
                     className="slide__img"
-                    src="/hwangye1.jpeg"
+                    src="hwangye1.jpeg"
                     alt=""
                   />
                 </figure>
@@ -190,7 +190,7 @@ function App() {
                 <figure className="slide__img-cont">
                   <img
                     className="slide__img"
-                    src="/woori1.JPG"
+                    src="woori1.JPG"
                     alt=""
                   />
                 </figure>
@@ -247,7 +247,7 @@ function App() {
                 <figure className="slide__img-cont" style={{backgroundColor: 'white'}}>
                   <img
                     className="slide__img"
-                    src="/gibbm1.JPG"
+                    src="gibbm1.JPG"
                     alt=""
                   />
                 </figure>
@@ -267,23 +267,23 @@ function App() {
             <img
               id="gibbm2"
               className="image"
-              src="/gibbm2.JPG"
+              src="gibbm2.JPG"
             />
             <img
               className="image"
-              src="/nanum1.JPG"
+              src="nanum1.JPG"
             />
             <img
               className="image"
-              src="/cukbok2.JPG"
+              src="cukbok2.JPG"
             />
             <img
               className="image"
-              src="/woori2.JPG"
+              src="woori2.JPG"
             />
             <img
               className="image"
-              src="/hwangye2.jpeg"
+              src="hwangye2.jpeg"
             />
           </figure>
         </div>
