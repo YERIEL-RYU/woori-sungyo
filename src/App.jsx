@@ -171,7 +171,7 @@ function App() {
                 <figure className="slide__img-cont">
                   <img
                     className="slide__img"
-                    src="https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NjMyMDUzOA&ixlib=rb-1.2.1&q=80&w=400"
+                    src="/hwangye1.jpeg"
                     alt=""
                   />
                 </figure>
@@ -190,7 +190,7 @@ function App() {
                 <figure className="slide__img-cont">
                   <img
                     className="slide__img"
-                    src="https://images.unsplash.com/photo-1558603668-6570496b66f8?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NjMyMDUzOA&ixlib=rb-1.2.1&q=85&w=400"
+                    src="/woori1.JPG"
                     alt=""
                   />
                 </figure>
@@ -209,7 +209,7 @@ function App() {
                 <figure className="slide__img-cont">
                   <img
                     className="slide__img"
-                    src="https://images.unsplash.com/photo-1537165924986-cc3568f5d454?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NjMyMDU4NA&ixlib=rb-1.2.1&q=85&w=400"
+                    src="cukbok1.jpeg"
                     alt=""
                   />
                 </figure>
@@ -225,10 +225,29 @@ function App() {
             <div className="slide__content">
               <div className="slide__container">
                 <h2 className="slide__heading">나눔</h2>
-                <figure className="slide__img-cont">
+                <figure className="slide__img-cont" style={{backgroundColor: 'black'}}>
                   <img
                     className="slide__img"
-                    src="https://images.unsplash.com/photo-1589271243958-d61e12b61b97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NjMyMDU4NA&ixlib=rb-1.2.1&q=80&w=400"
+                    src="nanum2.jpeg"
+                    alt=""
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="slide">
+        <div className="slide__outer">
+          <div className="slide__inner">
+            <div className="slide__content">
+              <div className="slide__container">
+                <h2 className="slide__heading">기쁨</h2>
+                <figure className="slide__img-cont" style={{backgroundColor: 'white'}}>
+                  <img
+                    className="slide__img"
+                    src="/gibbm1.JPG"
                     alt=""
                   />
                 </figure>
@@ -240,25 +259,31 @@ function App() {
 
       <section className="overlay">
         <div className="overlay__content">
-          <p className="overlay__count">
-            0<span className="count">{1}</span>
-          </p>
-          <figure className="overlay__img-cont">
+          {/* <p className="overlay__count"> */}
+            {/* 0<span className="count">{page}</span> */}
+          {/* </p> */}
+          <figure className="overlay__img-cont" style={{backgroundColor: 'black'}}>
+            
             <img
+              id="gibbm2"
               className="image"
-              src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NjMxOTU4Mw&ixlib=rb-1.2.1&q=80&w=800"
+              src="/gibbm2.JPG"
             />
             <img
               className="image"
-              src="https://images.unsplash.com/photo-1594666757003-3ee20de41568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NjMxOTcwOA&ixlib=rb-1.2.1&q=80&w=800"
+              src="/nanum1.JPG"
             />
             <img
               className="image"
-              src="https://images.unsplash.com/photo-1579830341096-05f2f31b8259?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NjMxOTQ5Ng&ixlib=rb-1.2.1&q=80&w=800"
+              src="/cukbok2.JPG"
             />
             <img
               className="image"
-              src="https://images.unsplash.com/photo-1603771628302-c32c88e568e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NjMxOTUxNg&ixlib=rb-1.2.1&q=80&w=800"
+              src="/woori2.JPG"
+            />
+            <img
+              className="image"
+              src="/hwangye2.jpeg"
             />
           </figure>
         </div>
